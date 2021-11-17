@@ -1,0 +1,66 @@
+.vertical-nav {
+  background-color: #b6d5ee;
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 8px 9px 30px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+}
+
+.buttonLeft {
+  background-color: #7c6a6a5e; 
+  border: none;
+  color: rgba(107, 87, 87, 0.555);
+  padding: 30px;
+  padding-left: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10 0 10 0;
+  margin-left: 30px;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.buttonRight {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 30px;
+  padding-right: 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10 0 10 0;
+  margin-right: 30px;
+  cursor: pointer;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.buttonFeedback {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+body {
+  background: #b2d7f5;
+  min-height: 100vh;
+  overflow-x: hidden;
+  margin-left: 18rem;
+}
